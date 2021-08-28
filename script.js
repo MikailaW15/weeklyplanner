@@ -133,9 +133,5 @@ myDay.forEach(function(thisHour) {
 init();
 
 $(".saveBtn").on("click", function(event) {
-    event.preventDefault();
-    var saveIndex = $(this).siblings(".description".children(".future").attr("id");
-    myDay[saveIndex].reminder = $(this).siblings(".description").children(".future").val();
-    saveReminders();
-    displayReminders();
+    event.preventDefault()
 })
